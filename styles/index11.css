@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin-top: 40px;
+}
+.react-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+.react-logo {
+  display: flex;
+  width: 55px;
+}
+.nav-item {
+  margin-left: 10px;
+}

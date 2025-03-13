@@ -1,0 +1,24 @@
+1. Where does React put all of the elements I create in JSX when I 
+   call `root.render()`?
+The root element, determined by whichever element or ID you declare as root
+
+2. What would show up in my console if I were to run this line of code:
+```
+console.log(<h1>Hello world!</h1>)
+```
+Syntax error
+
+3. What's wrong with this code:
+```
+root.render(
+    <h1>Hi there</h1>
+    <p>This is my website!</p>
+)
+```
+No parent element
+
+4. What does it mean for something to be "declarative" instead of "imperative"?
+Declarative is what React is, give an instruction and itll be done with parameters set beforehand, imperative means you need to describe each step precisely
+
+5. What does it mean for something to be "composable"?
+You can make all kinds of personal changes and compositions to the system.

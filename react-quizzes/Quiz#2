@@ -1,0 +1,29 @@
+1. What is a React component?
+
+Reusable piece of code that contains whatever you've inserted into it
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+
+React functions/components should be written in PascalCase, not camelCase
+
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <img src="./react-logo.png" width="40px" alt="React logo" />
+        </header>
+    )
+}
+
+root.render(Header())
+```
+
+Rendering a function/component should be done via angle brackets

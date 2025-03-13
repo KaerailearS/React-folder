@@ -1,0 +1,31 @@
+Small image up top left - might also include the text
+"ReactFacts" text next to the image - span, paragraph, low level header will all suffice
+
+Main heading for the list underneath
+Unordered list with 5 paragraph items
+
+--------------------------------------------------------------------------------------------
+
+Header; image + text
+Main content; heading + unordered list, partial background image on middle right
+
+--------------------------------------------------------------------------------------------
+
+<div.container>
+  <header>
+    <nav>
+      <img />
+      <span></span>
+    </nav>
+  </header>
+  <main>
+    <h1></h1>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </main>
+</div.container>
