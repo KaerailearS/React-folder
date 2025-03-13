@@ -28,6 +28,9 @@ body {
 }
 .main {
   padding: 60px 30px;
+  background-image: url(../images/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
 }
 .mainheading {
   margin: 0;
@@ -48,4 +51,8 @@ body {
 .list-item {
   padding-block: 10px;
   line-height: 19px;
+}
+.list-item::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
