@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  background-color: white;
+}
+.header2 {
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 55px;
+}
+.image2 {
+  width: 24px;
+  margin-right: 7px;
+}
+.span2 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Inter;
+}

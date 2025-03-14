@@ -6,7 +6,7 @@
  *   2. The larger gray React logo on the side
  */
 import { createRoot } from "react-dom/client"
-import { App } from "./app.jsx";
+import { App } from "./App.jsx";
 const root = createRoot(document.getElementById("root"))
 
 root.render(

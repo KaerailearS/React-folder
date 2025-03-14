@@ -1,9 +1,11 @@
 import Header from "./components/Header.jsx"
+import Entry from "./components/Entry.jsx"
 
-export default function App2(){
+export default function App3(){
   return (
     <>
       <Header/>
+      <Entry/>
     </>
   )
 }
