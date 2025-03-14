@@ -1,5 +1,5 @@
 import {createRoot} from "react-dom/client"
-import { App3 } from "./App3.jsx"
+import App3 from "./App3.jsx"
 /**
  * Challenge: Build out the Entry component and render 1 instance of it
  * to the App

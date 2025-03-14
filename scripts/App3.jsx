@@ -5,7 +5,9 @@ export default function App3(){
   return (
     <>
       <Header/>
-      <Entry/>
+      <main className="container">
+        <Entry/>
+      </main>
     </>
   )
 }
