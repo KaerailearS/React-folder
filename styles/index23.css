@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+}
+body {
+  font-family: Inter;
+}
+.container {
+  margin: 45px 40px;
+}
+header {
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.article3 {
+  display: flex;
+}
+.image3-2{
+  width: 7px;
+  margin-right: 4px;
+}
+.image3-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+.image3 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.span3 {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+.anchor3 {
+  color: #2B283A;
+  font-size: 0.7rem;
+}
+.anchor3:visited {
+  color: #918E9B;
+}
+.heading3 {
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+.paragraph3 {
+  font-weight: bold;
+}
+.paragraph3-2 {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

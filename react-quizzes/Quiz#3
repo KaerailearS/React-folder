@@ -1,0 +1,28 @@
+Look at the following code, and figure out what is wrong with it.
+
+HTML:
+<html>
+    <head></head>
+    <body>
+        <a>This is a link</a>
+        <img />
+        <input />
+    </body>
+</html>
+
+JS:
+function addTwoNumbersTogether() {
+    return 1 + 2
+}
+
+----------------------------------------------------------------------------------------------
+HTML:
+Empty head element, no links, stylesheet etc.
+Anchor element with no reference
+Image element with no source or alt text
+Empty input element
+Image and input stylished as if JSX functions?
+No script element
+
+JS:
+Hardcoded function that only serves one purpose

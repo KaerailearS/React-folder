@@ -1,0 +1,31 @@
+1. What do props help us accomplish?
+    - Add variable data into functions, allowing more reusability
+
+
+2. How do you pass a prop into a component?
+    - Add it into a React function as if it was a HTML attribute;
+    <FunctionName 
+        prop1:"one"
+        prop2:"two"
+    />
+
+
+3. Can I pass a custom prop (e.g. `blahblahblah={true}`) to a native
+   DOM element? (e.g. <div blahblahblah={true}>) Why or why not?
+   - No, since native elements have their own pre-determined properties.
+     Custom functions allow custom props, since you create the custom ones from the ground.
+
+
+4. How do I receive props in a component?
+   - Add the name of the propas a parameter and the name of the data in curly brackets 
+function Navbar(props) {
+    return (
+        <header>
+            <h1>{prop.name}</h1>
+        </header>
+    )
+}
+
+
+5. What data type is `props` when the component receives it?
+    Object
