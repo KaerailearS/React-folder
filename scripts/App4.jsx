@@ -5,7 +5,7 @@ import Contact from "./components/Contact"
  * data to the contact card instances. 😈
  */
 
-export default function App() {
+export default function App4() {
   return (
     <div className="contacts">
             <Contact
