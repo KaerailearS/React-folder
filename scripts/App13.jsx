@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function App() {
-    let [isImportant, setIsImportant] = React.useState("Yes")
+    const [isImportant, setIsImportant] = React.useState("Yes")
     /**
      * Challenge: 
      * 1. Create a function called `handleClick` that runs
