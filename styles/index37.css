@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #FAFAF8;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  height: 108px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.navicon{
+  width: 50px;
+}
+.navspan{
+  font-size: 2rem;
+}
+.main {
+  padding: 30px 30px 10px;
+}
+.mainForm {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+.mainInput{
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+.mainButton{
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #141413;
+  color: #FAFAF8;
+  width: 150px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.mainButton::before{
+  content: "+";
+  margin-right: 5px;
+}
+/**
+header box shadow code:
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+*/

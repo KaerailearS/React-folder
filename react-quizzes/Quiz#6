@@ -13,4 +13,4 @@
 3. When would you want to pass the second option (from answer
    above) to the state setter function?
 
-   When you care or need the old value
+   When you care about, or need the old value
