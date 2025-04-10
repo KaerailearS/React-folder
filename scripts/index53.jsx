@@ -1,5 +1,5 @@
 import {createRoot} from "react-dom/client"
-import App30 from "./App30.jsx"
+import App31 from "./App31.jsx"
 /**
  * Challenge:
  * - Create a Contact component in another file
@@ -13,4 +13,4 @@ import App30 from "./App30.jsx"
  */
 
 const root = createRoot(document.getElementById("root"))
-root.render(<App30 />)
+root.render(<App31 />)
