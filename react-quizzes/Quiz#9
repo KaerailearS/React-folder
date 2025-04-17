@@ -1,0 +1,20 @@
+1. In what way are React components meant to be "pure functions"
+   Functions that always return the same value when input with the same variables
+
+
+2. What is a "side effect" in React? What are some examples?
+   Any code that affects or interacts with an outside system(API calls etc.)
+
+
+
+3. What is NOT a "side effect" in React? Examples?
+   Anything that React is in charge of.
+
+
+4. When does React run your useEffect function? When does it NOT run
+   the effect function?
+   On initial render, and whenever the dependencies array value has changed between renders
+
+
+5. How would you explain what the "dependecies array" is?
+   An array which value is compared between the previous render and current render, to determine whether the useEffect function runs again
