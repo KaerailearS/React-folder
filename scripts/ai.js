@@ -17,7 +17,6 @@ export async function getRecipeFromMistral(ingredientsArr) {
             max_tokens: 1024,
         })
         const recipe = response.choices[0].message.content
-        console.log("Recipe from Mistral:", recipe)
         return response.choices[0].message.content
     } catch (err) {
         console.error(err.message)
